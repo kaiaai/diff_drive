@@ -1,2 +1,13 @@
 # differential_drive_robot_control
-This is  a ROS2 Jazzy repository to load and visualize the robot model in RViz2 and control the differential drive robot using teleop keyboard in Gazebo
+This project demonstrates how to simulate TortoiseBot in Gazebo and control it using teleop_twist_keyboard.
+The setup includes:
+
+tortoisebot_description package → defines URDF and visualization in RViz.
+
+tortoisebot_gazebo package → launches TortoiseBot inside an empty Gazebo world.
+
+Velocity command interface (/cmd_vel) to move the robot.
+
+Keyboard teleoperation for manual control.
+
+Click 
