@@ -85,7 +85,7 @@ ros2 launch tortoisebot_description display.launch.py
 ```bash
 ros2 launch tortoisebot_gazebo empty_world.launch.py
 ```
-![TortoiseBot in gz]()
+![TortoiseBot in gz](https://github.com/Sivapriya083/differential_drive_robot_control/blob/main/robot%20in%20gz.png?raw=true)
 
 
 ### Run Teleop Node
@@ -99,6 +99,8 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```bash
 ros2 run tortoisebot_gazebo path_tracker
 ```
+![TortoiseBot in gz]()
+
 
 ---
 
