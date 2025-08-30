@@ -13,6 +13,7 @@ The setup includes:
 
 ---
 
+
 ##  Features
 
 * Load and visualize **TortoiseBot** in RViz2.
@@ -22,6 +23,7 @@ The setup includes:
 
 ---
 
+
 ##  System Requirements
 
 * **OS:** Ubuntu 24.04 LTS
@@ -29,7 +31,7 @@ The setup includes:
 * **Gazebo:** Fortress or Harmonic
 * **Python:** ≥ 3.10
 * **C++:** ≥ C++17
-* **Hardware:**
+
 
 ##  Installation & Setup
 
@@ -71,7 +73,9 @@ source install/setup.bash
 
 ---
 
+
 ##  How to Run the Simulation
+
 
 ### Launch RViz with TortoiseBot
 
@@ -79,6 +83,7 @@ source install/setup.bash
 ros2 launch tortoisebot_description display.launch.py
 ```
 ![TortoiseBot in RViz2](https://github.com/Sivapriya083/differential_drive_robot_control/blob/d36d88c3b8e573951dc676682f3dc8520f1bc50f/robot%20in%20rviz.png)
+
 
 ### Spawn TortoiseBot in Gazebo
 
@@ -99,7 +104,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```bash
 ros2 run tortoisebot_gazebo path_tracker
 ```
-![TortoiseBot in gz]()
+![TortoiseBot in gz](https://github.com/Sivapriya083/differential_drive_robot_control/blob/main/robot%20simulation.png?raw=true)
 
 
 ---
