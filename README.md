@@ -117,7 +117,7 @@ tortoisebot_gazebo/
 ##  Demo
 
 
-![TortoiseBot in Gazebo]()
+![TortoiseBot in RViz2](https://github.com/Sivapriya083/differential_drive_robot_control/blob/d36d88c3b8e573951dc676682f3dc8520f1bc50f/robot%20in%20rviz.png)
 
 ---
 
