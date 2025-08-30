@@ -41,7 +41,7 @@ C++: ≥ C++17
    
   
   ```bash sudo apt update && sudo apt upgrade -y
-   ```bash sudo apt install ros-jazzy-desktop ros-jazzy-gazebo-ros-pkgs
+  ```bash sudo apt install ros-jazzy-desktop ros-jazzy-gazebo-ros-pkgs
 
 
 
