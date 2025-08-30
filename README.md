@@ -122,7 +122,7 @@ m → move backward-left
 
 k → stop
 
-Speed Adjustments:
+## Speed Adjustments:
 
 q → increase linear speed
 
@@ -142,7 +142,7 @@ CTRL+C → quit the node
 ```bash
 ros2 run tortoisebot_gazebo path_tracker
 ```
-Add aruco marker  and path from the RViz2 dropdown panel and select the Topic: /visualization_marker_array and Topic: /robot_path for path visualization.
+Add aruco marker  and path from the RViz2 panel and select the Topic: /visualization_marker_array and Topic: /robot_path for path visualization.
 
 
 ![TortoiseBot in gz](https://github.com/Sivapriya083/differential_drive_robot_control/blob/main/robot%20simulation.png?raw=true)
