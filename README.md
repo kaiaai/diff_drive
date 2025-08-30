@@ -35,10 +35,51 @@ Python: ≥ 3.10
 C++: ≥ C++17
 
 ## Prerequisites & Installation
-1. Install ROS 2 Jazzy
+### 1. Install ROS 2 Jazzy
 
    Follow the official setup guide:
    
   
   ```bash sudo apt update && sudo apt upgrade -y
   ```bash sudo apt install ros-jazzy-desktop ros-jazzy-gazebo-ros-pkgs
+
+### 2.Setup Workspace
+
+ ```bash mkdir -p ~/ros2_ws/src
+ ```bash cd ~/ros2_ws/src
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
