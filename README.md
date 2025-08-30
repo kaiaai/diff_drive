@@ -41,12 +41,8 @@ C++: ≥ C++17
    
   
   ```bash sudo apt update && sudo apt upgrade -y
-  ```bash sudo apt install ros-jazzy-desktop ros-jazzy-gazebo-ros-pkgs
+   ```bash sudo apt install ros-jazzy-desktop ros-jazzy-gazebo-ros-pkgs
 
-### 2.Setup Workspace
-
- ```bash mkdir -p ~/ros2_ws/src
- ```bash cd ~/ros2_ws/src
 
 
 
