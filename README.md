@@ -38,6 +38,7 @@ C++: ≥ C++17
 1. Install ROS 2 Jazzy
 
    Follow the official setup guide:
-
+   
+  
   ```bash sudo apt update && sudo apt upgrade -y
   ```bash sudo apt install ros-jazzy-desktop ros-jazzy-gazebo-ros-pkgs
