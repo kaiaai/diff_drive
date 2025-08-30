@@ -78,12 +78,15 @@ source install/setup.bash
 ```bash
 ros2 launch tortoisebot_description display.launch.py
 ```
+![TortoiseBot in RViz2](https://github.com/Sivapriya083/differential_drive_robot_control/blob/d36d88c3b8e573951dc676682f3dc8520f1bc50f/robot%20in%20rviz.png)
 
 ### Spawn TortoiseBot in Gazebo
 
 ```bash
 ros2 launch tortoisebot_gazebo empty_world.launch.py
 ```
+![TortoiseBot in gz]()
+
 
 ### Run Teleop Node
 
@@ -111,15 +114,6 @@ tortoisebot_gazebo/
 │── launch/         # Gazebo launch files
 │── src/            # Path tracker node
 ```
-
----
-
-##  Demo
-
-
-![TortoiseBot in RViz2](https://github.com/Sivapriya083/differential_drive_robot_control/blob/d36d88c3b8e573951dc676682f3dc8520f1bc50f/robot%20in%20rviz.png)
-
----
 
 ##  References
 
