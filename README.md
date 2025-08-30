@@ -12,7 +12,7 @@ Keyboard teleoperation for manual control.
 
 Click https://youtu.be/LdBMpnNu1Q4 for the climulation video.
 
-Features
+## Features
 
 Visualize TortoiseBot URDF in RViz2.
 
@@ -34,9 +34,10 @@ Python: ≥ 3.10
 
 C++: ≥ C++17
 
-Prerequisites & Installation
+##Prerequisites & Installation
 1 Install ROS 2 Jazzy
 
 Follow the official setup guide:
-sudo apt update && sudo apt upgrade -y
+
+```bashsudo apt update && sudo apt upgrade -y
 sudo apt install ros-jazzy-desktop ros-jazzy-gazebo-ros-pkgs
