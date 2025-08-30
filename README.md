@@ -29,9 +29,6 @@ The setup includes:
 * **OS:** Ubuntu 24.04 LTS
 * **ROS 2:** Jazzy Jalisco
 * **Gazebo:** Fortress or Harmonic
-* **Python:** ≥ 3.10
-* **C++:** ≥ C++17
-
 
 ##  Installation & Setup
 
@@ -54,7 +51,7 @@ cd ~/ros2_ws/src
 ### 3️ Clone This Repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
+git clone https://github.com/<sivapriya083>/<differential_drive_robot_control>.git
 ```
 
 ### 4️ Install Dependencies
@@ -82,6 +79,8 @@ source install/setup.bash
 ```bash
 ros2 launch tortoisebot_description display.launch.py
 ```
+If the robot does'nt load automatically in rviz2,click the RobotModel dropdown arrow in the RViz2 pannel and type /robot_description infront of the description topic. 
+
 ![TortoiseBot in RViz2](https://github.com/Sivapriya083/differential_drive_robot_control/blob/d36d88c3b8e573951dc676682f3dc8520f1bc50f/robot%20in%20rviz.png)
 
 
@@ -95,17 +94,58 @@ ros2 launch tortoisebot_gazebo empty_world.launch.py
 
 ### Run Teleop Node
 
+In new terminal, start the teleoperation:
+
 ```bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
+
+## Movement:
+
+i → move forward
+
+, → move backward
+
+j → turn left
+
+l → turn right
+
+u → move forward-left (diagonal)
+
+o → move forward-right
+
+m → move backward-left
+
+. → move backward-right
+
+## Stop:
+
+k → stop
+
+Speed Adjustments:
+
+q → increase linear speed
+
+z → decrease linear speed
+
+w → increase angular speed
+
+x → decrease angular speed
+
+## Exit:
+
+CTRL+C → quit the node
+
 
 ### Run Path Tracker Node
 
 ```bash
 ros2 run tortoisebot_gazebo path_tracker
 ```
-![TortoiseBot in gz](https://github.com/Sivapriya083/differential_drive_robot_control/blob/main/robot%20simulation.png?raw=true)
+Add aruco marker  and path from the RViz2 dropdown panel and select the Topic: /visualization_marker_array and Topic: /robot_path for path visualization.
 
+
+![TortoiseBot in gz](https://github.com/Sivapriya083/differential_drive_robot_control/blob/main/robot%20simulation.png?raw=true)
 
 ---
 
