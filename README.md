@@ -10,7 +10,7 @@ Velocity command interface (/cmd_vel) to move the robot.
 
 Keyboard teleoperation for manual control.
 
-Click https://youtu.be/LdBMpnNu1Q4 for the climulation video.
+Click [here](https://youtu.be/LdBMpnNu1Q4) for the simulation video.
 
 ## Features
 
