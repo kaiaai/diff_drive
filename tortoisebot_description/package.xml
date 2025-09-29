@@ -19,7 +19,7 @@
   
   <!-- Gazebo and bridges -->
   <depend>ros_gz_interfaces</depend>
-  <depend>ros_gz_bridge</depend>
+  <!-- depend>ros_gz_bridge</depend -->
   <depend>ros_gz_sim</depend>
   
   <!-- Robot description -->
