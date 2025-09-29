@@ -11,7 +11,7 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>ros-gz-sim</depend>
-  <depend>ros-gz-bridge</depend>
+  <!-- depend>ros-gz-bridge</depend -->
   <depend>tortoisebot_description</depend>
   <depend>robot_state_publisher</depend>
   <depend>joint_state_publisher</depend>
