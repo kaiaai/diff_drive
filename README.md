@@ -87,7 +87,7 @@ If the robot does'nt load automatically in rviz2,click the RobotModel dropdown a
 ### Spawn TortoiseBot in Gazebo
 
 ```bash
-ros2 launch tortoisebot_gazebo empty_world.launch.py
+ros2 launch tortoisebot_gazebo gazebo_world.launch.py
 ```
 ![TortoiseBot in gz](https://github.com/Sivapriya083/differential_drive_robot_control/blob/main/robot%20in%20gz.png?raw=true)
 
